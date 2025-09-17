@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#89f">           <!--  el color de la biñeta  -->
+
+    <!-- OPEN GARPH (cuando compartes, es lo que te aparece)-->
+    <meta property="og:title" content="Invitación de Elmer">
+    <meta property="og:description" content="Estas invitado al mejor cumpleaños de Elmer :3">
+    <meta property="og:imagen" content="/imagenes/xd.png">
+    <meta property="og:imagen:alt" content="Dibujo de niños celebrando un cumpleaños">
+
+    <title>HTML Información</title>
+
+    <link rel="icon" type="/imagenes/png" href="/imagenes/xd.png">
+
+    <link rel="stylesheet" href="Html.css">
+    
+</head>
+<body>
+    <div id="info">
+        Información
+    </div>
+    <h4 id="datos">DATOS PERSONALES:</h4>
+    <form action="/información priv" method="post">
+        <section>
+            <fieldset>
+                <legend>Usuario:</legend>
+                <article>
+                    <label for="nom">Nombre:</label>
+                    <input name="Nombre:" id="nom" type="text" placeholder="Nombre de usuario" required>
+                </article>
+                <br>
+                <article>
+                    <label for="gmail">Gmail:</label>
+                    <input name="Gmail:" id="gmail" type="email" placeholder="example@gmail.com" required>
+                </article>
+            </fieldset>
+            <br>
+            <article>
+                <label for="coment">Comentario:</label>
+                <br>
+                <textarea name="Comentario:" cols="50" rows="5" id="coment" placeholder="Escribir tu comentario..."></textarea>
+            </article>
+            <br>
+
+            <article>
+                <h5>¿Porque entro a esta pagina?</h5>
+
+                <datalist id="listado">
+                    <option value="Curiosidad"></option>
+                    <option value="Querer saber más"></option>
+                    <option value="Accidentalmente"></option>
+                </datalist>
+
+                <input id="puede" name="Razón:" list="listado" required>
+            </article>
+
+            <article>
+                <h5>¿Invitara a que más gente que la vea?</h5>
+                    <select id="opciones" name="Invitaras a alguien más:">
+                        <option value="Shi">Shi</option>
+                        <option>Nou :'c</option>
+                    </select>
+            </article>
+            <br>
+            <button class="boton" type="submit">Enviar</button>
+            <button class="boton" type="reset">Limpiar</button>
+        </section>
+    </form>
+<hr>        
+        <section class="portador">
+            <div class="titul"></div>
+            <div class="titul"></div>
+            <div class="titul"></div>
+            HTML
+            <div class="titul"></div>
+            <div class="titul"></div>
+            <div class="titul"></div>
+        </section> 
+    
+<hr>
+
+  <section class="contenedor">
+    <div class="contenido">
+        <a class="letras" href="#titulo">INICIO</a>
+    </div>
+    <div class="contenido">
+        <a class="letras" href="#datos">DATOS PERSONALES</a>
+    </div>    
+    <div class="contenido">
+        <a class="letras" href="#contact">CONTACTO</a>
+    </div>
+  </section>
+        
+<hr>
+        <p>
+            Tambien llamado <strong>(HyperText Markup Language)</strong>
+            es el lenguaje estándar para crear y estructurar páginas web<br>
+        </p>
+
+        <a class="xdd"
+            target="_blank" 
+            href="https://www.youtube.com/watch?v=3nYLTiY5skU&t=5648s">
+            <img title="Video de HTML" style="width:40%;aspect-ratio: 16/9;" alt="Un señor y al lado un simbolo de Html 5" type="imagenes/.png" src="/imagenes/xd.png"/>
+        </a>
+       
+        <div>
+            <details>
+                <summary>¿Cual es su función?</summary>
+                <p>Es el código que se utiliza para estructurar y</p> 
+                <p>desplegar una página web y sus contenidos</p>
+            </details>
+
+            <details>
+                <summary><span style="color:crimson">¿Qué es HTML y para qué se utiliza en programación?</span></summary>
+                <p>Es el lenguaje estándar, No llega hacer un <strong>Lenguaje de Programación</strong></p>   
+                <p>sino, un lenguaje de marcado que llega a estructurar el trabajo</p>
+            </details>
+
+            <details>
+                <summary>¿Cuántos tipos de HTML hay?</summary>
+                <h3>Versiones de HTML [2023]</h3>
+                <ol type="I">
+                                            
+                        <li>Versión HTML 1.0</li>
+                            <p>
+                                HTML 1.0 fue la primera versión del lenguaje HTML lanzado en 1993
+                            </p>                     
+                                                
+                        <li>Versión HTML 2.0</li>    
+                            <p>
+                                HTML 2.0 se lanzó en 1995 y añadió nuevas características 
+                                como soporte para formularios y scripts.<br>
+                            </p>   
+                        <li>Versión HTML 3.2</li>    
+                        <li>Versión HTML 4.0 y 4.01</li>                            
+                        <li>Versión XHTML</li>        
+                        <li>Versión XHTML5</li> 
+                </ol>
+            </details>
+        </div>
+<hr>
+        <section class="bdo">
+            <div>
+            <p><strong>Color de body:</strong></p>
+            </div>
+            <div class="box">
+                <label>Marron claro:</label>
+                <input id="checkm" type="checkbox">
+            </div>
+            <div class="box">
+                <label>Negro:</label>
+                <input id="checkb" type="checkbox">
+            </div>
+        </section>
+<hr>
+        <tbody>
+
+            <label id="contact"><strong>Contactanos:</strong></label>
+            <br>
+            <label><strong>Gmail:</strong></label>
+            <a href="mailto:urbanodiaze@gmail.com">urbanodiaze@gmail.com</a>
+            <br>
+            <br>
+            <label><strong>Número:</strong></label>
+            <a href="tel:+51 984 536 870">Llamar</a>
+            <br>
+            <p>© 2025 XElmikeX. Todos los derechos reservados.</p>
+        </tbody>    
+         
+</body>
+</html>
